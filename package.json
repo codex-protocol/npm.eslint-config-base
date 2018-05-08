@@ -1,0 +1,24 @@
+{
+  "name": "@codex-protocol/eslint-config-base",
+  "version": "1.0.0",
+  "description": "An eslint config for all Codex Protocol projects using Babel.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codex-protocol/npm.eslint-config-base"
+  },
+  "authors": [
+    "Colin Wood <colin@codexprotocol.com>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codex-protocol/npm.eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/codex-protocol/npm.eslint-config-base",
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
