@@ -20,6 +20,7 @@ module.exports = {
     'no-param-reassign': ['error', { 'props': false }],
     'function-paren-newline': [ 'error', 'consistent' ],
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+    "prefer-destructuring": ["error", { array: false, object: true }],
     'object-curly-newline': ['error', { ObjectExpression: { multiline: false, consistent: true } }],
   }
 }
