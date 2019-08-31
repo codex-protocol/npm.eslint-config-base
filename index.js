@@ -81,5 +81,9 @@ module.exports = {
     //  there are more than 4 keys
     'object-curly-newline': ['error', { ObjectExpression: { multiline: true, consistent: true } }],
 
+    // at some point, airbnb added this to their rules and I don't really like
+    //  it because Object.assign() is more explicitly clear about order
+    'prefer-object-spread': 'off',
+
   },
 }
