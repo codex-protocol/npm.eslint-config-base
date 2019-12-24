@@ -1,6 +1,6 @@
 {
   "name": "@codex-protocol/eslint-config-base",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "An eslint config for all Codex Protocol projects using Babel.",
   "main": "index.js",
   "scripts": {
