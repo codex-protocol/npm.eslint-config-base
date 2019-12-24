@@ -39,7 +39,17 @@ module.exports = {
 
     // this is actually redundant, already in base airbnb... will leave in case
     //  they change it
-    'comma-dangle': ['error', 'always-multiline'],
+    //
+    // UPDATE: as of 2019-12-25, eslint introduced a breaking change that
+    //  basically "enabled" comma-dangle for function (whereas it was previously
+    //  ignored)
+    'comma-dangle': ['error', {
+      functions: 'ignore',
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+    }]
 
     // allows unused vars in arguments, (e.g.
     //  `new Promise((resolve, reject) => {} )` but you never use the reject)
