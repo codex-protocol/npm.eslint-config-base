@@ -49,7 +49,7 @@ module.exports = {
       objects: 'always-multiline',
       imports: 'always-multiline',
       exports: 'always-multiline',
-    }]
+    }],
 
     // allows unused vars in arguments, (e.g.
     //  `new Promise((resolve, reject) => {} )` but you never use the reject)
